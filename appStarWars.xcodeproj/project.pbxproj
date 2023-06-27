@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79B1CEF8BDEF7E080D4736DC /* Pods_appStarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A440673C65C9D73AC203C0D /* Pods_appStarWars.framework */; };
+		A0DDAFFD2A4A5A1500E030A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDAFFC2A4A5A1500E030A3 /* AppDelegate.swift */; };
+		A0DDAFFF2A4A5A1500E030A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDAFFE2A4A5A1500E030A3 /* SceneDelegate.swift */; };
+		A0DDB0012A4A5A1500E030A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0002A4A5A1500E030A3 /* ViewController.swift */; };
+		A0DDB0092A4A5A1800E030A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB0072A4A5A1800E030A3 /* LaunchScreen.storyboard */; };
+		A0DDB0112A4A5A4700E030A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB0102A4A5A4700E030A3 /* Main.storyboard */; };
+		A0DDB01D2A4A5A9000E030A3 /* detailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0122A4A5A8F00E030A3 /* detailModel.swift */; };
+		A0DDB01E2A4A5A9000E030A3 /* DetailPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0132A4A5A9000E030A3 /* DetailPersonViewController.swift */; };
+		A0DDB01F2A4A5A9000E030A3 /* DetailPlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0142A4A5A9000E030A3 /* DetailPlanetsViewController.swift */; };
+		A0DDB0202A4A5A9000E030A3 /* DetailPlanetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB0152A4A5A9000E030A3 /* DetailPlanetsViewController.xib */; };
+		A0DDB0212A4A5A9000E030A3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0172A4A5A9000E030A3 /* CollectionViewCell.swift */; };
+		A0DDB0222A4A5A9000E030A3 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB0182A4A5A9000E030A3 /* TableViewCell.xib */; };
+		A0DDB0232A4A5A9000E030A3 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0192A4A5A9000E030A3 /* PersonTableViewCell.swift */; };
+		A0DDB0242A4A5A9000E030A3 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB01A2A4A5A9000E030A3 /* CollectionViewCell.xib */; };
+		A0DDB0252A4A5A9000E030A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB01B2A4A5A9000E030A3 /* Assets.xcassets */; };
+		A0DDB0262A4A5A9000E030A3 /* DetailPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB01C2A4A5A9000E030A3 /* DetailPersonViewController.xib */; };
+		A0DDB0302A4A5AA600E030A3 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0272A4A5AA600E030A3 /* PersonModel.swift */; };
+		A0DDB0312A4A5AA600E030A3 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0282A4A5AA600E030A3 /* PersonViewController.swift */; };
+		A0DDB0322A4A5AA600E030A3 /* PlanetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0292A4A5AA600E030A3 /* PlanetsModel.swift */; };
+		A0DDB0332A4A5AA600E030A3 /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB02A2A4A5AA600E030A3 /* PlanetsViewController.swift */; };
+		A0DDB0342A4A5AA600E030A3 /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB02B2A4A5AA600E030A3 /* PersonViewController.xib */; };
+		A0DDB0352A4A5AA600E030A3 /* NetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB02C2A4A5AA600E030A3 /* NetworkingProvider.swift */; };
+		A0DDB0362A4A5AA600E030A3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB02D2A4A5AA600E030A3 /* MenuViewController.swift */; };
+		A0DDB0372A4A5AA600E030A3 /* PlanetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB02E2A4A5AA600E030A3 /* PlanetsViewController.xib */; };
+		A0DDB0382A4A5AA600E030A3 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB02F2A4A5AA600E030A3 /* MenuViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1089EAB8530BB9DC0BD49DC1 /* Pods-appStarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appStarWars.debug.xcconfig"; path = "Target Support Files/Pods-appStarWars/Pods-appStarWars.debug.xcconfig"; sourceTree = "<group>"; };
+		1A440673C65C9D73AC203C0D /* Pods_appStarWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appStarWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5317204E2EC3EE55B9DC74 /* Pods-appStarWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appStarWars.release.xcconfig"; path = "Target Support Files/Pods-appStarWars/Pods-appStarWars.release.xcconfig"; sourceTree = "<group>"; };
+		A0DDAFF92A4A5A1500E030A3 /* appStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0DDAFFC2A4A5A1500E030A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0DDAFFE2A4A5A1500E030A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0DDB0002A4A5A1500E030A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0DDB0082A4A5A1800E030A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0DDB00A2A4A5A1800E030A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DDB0102A4A5A4700E030A3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A0DDB0122A4A5A8F00E030A3 /* detailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailModel.swift; sourceTree = "<group>"; };
+		A0DDB0132A4A5A9000E030A3 /* DetailPersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPersonViewController.swift; sourceTree = "<group>"; };
+		A0DDB0142A4A5A9000E030A3 /* DetailPlanetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPlanetsViewController.swift; sourceTree = "<group>"; };
+		A0DDB0152A4A5A9000E030A3 /* DetailPlanetsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailPlanetsViewController.xib; sourceTree = "<group>"; };
+		A0DDB0172A4A5A9000E030A3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A0DDB0182A4A5A9000E030A3 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		A0DDB0192A4A5A9000E030A3 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		A0DDB01A2A4A5A9000E030A3 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		A0DDB01B2A4A5A9000E030A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Star Wars/Star Wars/Assets.xcassets"; sourceTree = "<group>"; };
+		A0DDB01C2A4A5A9000E030A3 /* DetailPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailPersonViewController.xib; sourceTree = "<group>"; };
+		A0DDB0272A4A5AA600E030A3 /* PersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		A0DDB0282A4A5AA600E030A3 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		A0DDB0292A4A5AA600E030A3 /* PlanetsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsModel.swift; sourceTree = "<group>"; };
+		A0DDB02A2A4A5AA600E030A3 /* PlanetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
+		A0DDB02B2A4A5AA600E030A3 /* PersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
+		A0DDB02C2A4A5AA600E030A3 /* NetworkingProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingProvider.swift; sourceTree = "<group>"; };
+		A0DDB02D2A4A5AA600E030A3 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A0DDB02E2A4A5AA600E030A3 /* PlanetsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlanetsViewController.xib; sourceTree = "<group>"; };
+		A0DDB02F2A4A5AA600E030A3 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0DDAFF62A4A5A1500E030A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B1CEF8BDEF7E080D4736DC /* Pods_appStarWars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		811D775E482B210F19CB14AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1089EAB8530BB9DC0BD49DC1 /* Pods-appStarWars.debug.xcconfig */,
+				4E5317204E2EC3EE55B9DC74 /* Pods-appStarWars.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A0DDAFF02A4A5A1500E030A3 = {
+			isa = PBXGroup;
+			children = (
+				A0DDAFFB2A4A5A1500E030A3 /* appStarWars */,
+				A0DDAFFA2A4A5A1500E030A3 /* Products */,
+				811D775E482B210F19CB14AF /* Pods */,
+				B946994867F55A6CD0C67509 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0DDAFFA2A4A5A1500E030A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0DDAFF92A4A5A1500E030A3 /* appStarWars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0DDAFFB2A4A5A1500E030A3 /* appStarWars */ = {
+			isa = PBXGroup;
+			children = (
+				A0DDB03F2A4A628000E030A3 /* Networking */,
+				A0DDB0162A4A5A9000E030A3 /* cell */,
+				A0DDB03E2A4A625F00E030A3 /* DetailPlanets */,
+				A0DDB03D2A4A624700E030A3 /* DetailPerson */,
+				A0DDB03C2A4A623300E030A3 /* Planets */,
+				A0DDB03B2A4A620400E030A3 /* Character */,
+				A0DDB03A2A4A61F500E030A3 /* Menu */,
+				A0DDB0392A4A61DB00E030A3 /* Login */,
+				A0DDAFFC2A4A5A1500E030A3 /* AppDelegate.swift */,
+				A0DDAFFE2A4A5A1500E030A3 /* SceneDelegate.swift */,
+				A0DDB01B2A4A5A9000E030A3 /* Assets.xcassets */,
+				A0DDB0072A4A5A1800E030A3 /* LaunchScreen.storyboard */,
+				A0DDB00A2A4A5A1800E030A3 /* Info.plist */,
+			);
+			path = appStarWars;
+			sourceTree = "<group>";
+		};
+		A0DDB0162A4A5A9000E030A3 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				A0DDB0172A4A5A9000E030A3 /* CollectionViewCell.swift */,
+				A0DDB0182A4A5A9000E030A3 /* TableViewCell.xib */,
+				A0DDB0192A4A5A9000E030A3 /* PersonTableViewCell.swift */,
+				A0DDB01A2A4A5A9000E030A3 /* CollectionViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		A0DDB0392A4A61DB00E030A3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A0DDB0002A4A5A1500E030A3 /* ViewController.swift */,
+				A0DDB0102A4A5A4700E030A3 /* Main.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A0DDB03A2A4A61F500E030A3 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A0DDB02D2A4A5AA600E030A3 /* MenuViewController.swift */,
+				A0DDB02F2A4A5AA600E030A3 /* MenuViewController.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		A0DDB03B2A4A620400E030A3 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				A0DDB0272A4A5AA600E030A3 /* PersonModel.swift */,
+				A0DDB0282A4A5AA600E030A3 /* PersonViewController.swift */,
+				A0DDB02B2A4A5AA600E030A3 /* PersonViewController.xib */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		A0DDB03C2A4A623300E030A3 /* Planets */ = {
+			isa = PBXGroup;
+			children = (
+				A0DDB0292A4A5AA600E030A3 /* PlanetsModel.swift */,
+				A0DDB02A2A4A5AA600E030A3 /* PlanetsViewController.swift */,
+				A0DDB02E2A4A5AA600E030A3 /* PlanetsViewController.xib */,
+			);
+			path = Planets;
+			sourceTree = "<group>";
+		};
+		A0DDB03D2A4A624700E030A3 /* DetailPerson */ = {
+			isa = PBXGroup;
+			children = (
+				A0DDB0122A4A5A8F00E030A3 /* detailModel.swift */,
+				A0DDB0132A4A5A9000E030A3 /* DetailPersonViewController.swift */,
+				A0DDB01C2A4A5A9000E030A3 /* DetailPersonViewController.xib */,
+			);
+			path = DetailPerson;
+			sourceTree = "<group>";
+		};
+		A0DDB03E2A4A625F00E030A3 /* DetailPlanets */ = {
+			isa = PBXGroup;
+			children = (
+				A0DDB0142A4A5A9000E030A3 /* DetailPlanetsViewController.swift */,
+				A0DDB0152A4A5A9000E030A3 /* DetailPlanetsViewController.xib */,
+			);
+			path = DetailPlanets;
+			sourceTree = "<group>";
+		};
+		A0DDB03F2A4A628000E030A3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A0DDB02C2A4A5AA600E030A3 /* NetworkingProvider.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B946994867F55A6CD0C67509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A440673C65C9D73AC203C0D /* Pods_appStarWars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0DDAFF82A4A5A1500E030A3 /* appStarWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0DDB00D2A4A5A1800E030A3 /* Build configuration list for PBXNativeTarget "appStarWars" */;
+			buildPhases = (
+				9847727B1DEA557C8658627A /* [CP] Check Pods Manifest.lock */,
+				A0DDAFF52A4A5A1500E030A3 /* Sources */,
+				A0DDAFF62A4A5A1500E030A3 /* Frameworks */,
+				A0DDAFF72A4A5A1500E030A3 /* Resources */,
+				D7ABF8662008AE86FAF54933 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appStarWars;
+			productName = appStarWars;
+			productReference = A0DDAFF92A4A5A1500E030A3 /* appStarWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0DDAFF12A4A5A1500E030A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A0DDAFF82A4A5A1500E030A3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = A0DDAFF42A4A5A1500E030A3 /* Build configuration list for PBXProject "appStarWars" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0DDAFF02A4A5A1500E030A3;
+			productRefGroup = A0DDAFFA2A4A5A1500E030A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0DDAFF82A4A5A1500E030A3 /* appStarWars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0DDAFF72A4A5A1500E030A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DDB0262A4A5A9000E030A3 /* DetailPersonViewController.xib in Resources */,
+				A0DDB0112A4A5A4700E030A3 /* Main.storyboard in Resources */,
+				A0DDB0372A4A5AA600E030A3 /* PlanetsViewController.xib in Resources */,
+				A0DDB0222A4A5A9000E030A3 /* TableViewCell.xib in Resources */,
+				A0DDB0342A4A5AA600E030A3 /* PersonViewController.xib in Resources */,
+				A0DDB0242A4A5A9000E030A3 /* CollectionViewCell.xib in Resources */,
+				A0DDB0202A4A5A9000E030A3 /* DetailPlanetsViewController.xib in Resources */,
+				A0DDB0382A4A5AA600E030A3 /* MenuViewController.xib in Resources */,
+				A0DDB0252A4A5A9000E030A3 /* Assets.xcassets in Resources */,
+				A0DDB0092A4A5A1800E030A3 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9847727B1DEA557C8658627A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appStarWars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7ABF8662008AE86FAF54933 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appStarWars/Pods-appStarWars-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appStarWars/Pods-appStarWars-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appStarWars/Pods-appStarWars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0DDAFF52A4A5A1500E030A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DDB0352A4A5AA600E030A3 /* NetworkingProvider.swift in Sources */,
+				A0DDB01E2A4A5A9000E030A3 /* DetailPersonViewController.swift in Sources */,
+				A0DDB0322A4A5AA600E030A3 /* PlanetsModel.swift in Sources */,
+				A0DDB0362A4A5AA600E030A3 /* MenuViewController.swift in Sources */,
+				A0DDB01F2A4A5A9000E030A3 /* DetailPlanetsViewController.swift in Sources */,
+				A0DDB01D2A4A5A9000E030A3 /* detailModel.swift in Sources */,
+				A0DDB0212A4A5A9000E030A3 /* CollectionViewCell.swift in Sources */,
+				A0DDB0012A4A5A1500E030A3 /* ViewController.swift in Sources */,
+				A0DDB0312A4A5AA600E030A3 /* PersonViewController.swift in Sources */,
+				A0DDAFFD2A4A5A1500E030A3 /* AppDelegate.swift in Sources */,
+				A0DDB0332A4A5AA600E030A3 /* PlanetsViewController.swift in Sources */,
+				A0DDB0302A4A5AA600E030A3 /* PersonModel.swift in Sources */,
+				A0DDB0232A4A5A9000E030A3 /* PersonTableViewCell.swift in Sources */,
+				A0DDAFFF2A4A5A1500E030A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0DDB0072A4A5A1800E030A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0DDB0082A4A5A1800E030A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0DDB00B2A4A5A1800E030A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0DDB00C2A4A5A1800E030A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0DDB00E2A4A5A1800E030A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1089EAB8530BB9DC0BD49DC1 /* Pods-appStarWars.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2J8BVHP57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appStarWars/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.luis.appStarWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0DDB00F2A4A5A1800E030A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5317204E2EC3EE55B9DC74 /* Pods-appStarWars.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2J8BVHP57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appStarWars/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.luis.appStarWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0DDAFF42A4A5A1500E030A3 /* Build configuration list for PBXProject "appStarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DDB00B2A4A5A1800E030A3 /* Debug */,
+				A0DDB00C2A4A5A1800E030A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0DDB00D2A4A5A1800E030A3 /* Build configuration list for PBXNativeTarget "appStarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DDB00E2A4A5A1800E030A3 /* Debug */,
+				A0DDB00F2A4A5A1800E030A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0DDAFF12A4A5A1500E030A3 /* Project object */;
+}
