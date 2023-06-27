@@ -128,10 +128,10 @@
 		A0DDB0162A4A5A9000E030A3 /* cell */ = {
 			isa = PBXGroup;
 			children = (
+				A0DDB01A2A4A5A9000E030A3 /* CollectionViewCell.xib */,
 				A0DDB0172A4A5A9000E030A3 /* CollectionViewCell.swift */,
 				A0DDB0182A4A5A9000E030A3 /* TableViewCell.xib */,
 				A0DDB0192A4A5A9000E030A3 /* PersonTableViewCell.swift */,
-				A0DDB01A2A4A5A9000E030A3 /* CollectionViewCell.xib */,
 			);
 			path = cell;
 			sourceTree = "<group>";

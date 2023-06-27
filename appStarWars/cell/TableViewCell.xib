@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="48" id="KGk-i7-Jjw" customClass="PersonTableViewCell" customModule="Star_Wars" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="48" id="KGk-i7-Jjw" customClass="PersonTableViewCell" customModule="appStarWars" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="247" height="48"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -18,10 +18,10 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AKw-rr-oaM">
-                        <rect key="frame" x="16" y="10" width="215" height="40"/>
+                        <rect key="frame" x="16" y="10" width="215" height="60"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8D-uf-I8D">
-                                <rect key="frame" x="10" y="10" width="195" height="21"/>
+                                <rect key="frame" x="10" y="20" width="195" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="8iU-hT-lwB"/>
                                 </constraints>
@@ -34,7 +34,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-flecha-50" translatesAutoresizingMaskIntoConstraints="NO" id="ZHD-Xx-atb">
-                                <rect key="frame" x="165" y="9.6666666666666679" width="50" height="22"/>
+                                <rect key="frame" x="165" y="19.666666666666668" width="50" height="22.000000000000004"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="6wv-76-9cu"/>
                                     <constraint firstAttribute="height" constant="22" id="cVO-hg-HOT"/>
@@ -44,8 +44,8 @@
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                         <constraints>
                             <constraint firstItem="m8D-uf-I8D" firstAttribute="leading" secondItem="AKw-rr-oaM" secondAttribute="leading" constant="10" id="309-ml-eko"/>
-                            <constraint firstItem="m8D-uf-I8D" firstAttribute="top" secondItem="AKw-rr-oaM" secondAttribute="top" constant="10" id="cMl-nn-Zch"/>
-                            <constraint firstAttribute="height" constant="40" id="jbS-xh-lr1"/>
+                            <constraint firstItem="m8D-uf-I8D" firstAttribute="top" secondItem="AKw-rr-oaM" secondAttribute="top" constant="20" id="cMl-nn-Zch"/>
+                            <constraint firstAttribute="height" constant="60" id="jbS-xh-lr1"/>
                             <constraint firstAttribute="trailing" secondItem="ZHD-Xx-atb" secondAttribute="trailing" id="rfe-kD-21i"/>
                             <constraint firstItem="ZHD-Xx-atb" firstAttribute="centerY" secondItem="m8D-uf-I8D" secondAttribute="centerY" id="set-fe-mZS"/>
                             <constraint firstAttribute="trailing" secondItem="m8D-uf-I8D" secondAttribute="trailing" constant="10" id="ue8-6j-KQt"/>
