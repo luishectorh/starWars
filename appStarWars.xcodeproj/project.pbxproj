@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		79B1CEF8BDEF7E080D4736DC /* Pods_appStarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A440673C65C9D73AC203C0D /* Pods_appStarWars.framework */; };
+		A0C97BA12A4B4C1E00775953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C97BA02A4B4C1E00775953 /* Assets.xcassets */; };
 		A0DDAFFD2A4A5A1500E030A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDAFFC2A4A5A1500E030A3 /* AppDelegate.swift */; };
 		A0DDAFFF2A4A5A1500E030A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDAFFE2A4A5A1500E030A3 /* SceneDelegate.swift */; };
 		A0DDB0012A4A5A1500E030A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0002A4A5A1500E030A3 /* ViewController.swift */; };
@@ -21,7 +22,6 @@
 		A0DDB0222A4A5A9000E030A3 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB0182A4A5A9000E030A3 /* TableViewCell.xib */; };
 		A0DDB0232A4A5A9000E030A3 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0192A4A5A9000E030A3 /* PersonTableViewCell.swift */; };
 		A0DDB0242A4A5A9000E030A3 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB01A2A4A5A9000E030A3 /* CollectionViewCell.xib */; };
-		A0DDB0252A4A5A9000E030A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB01B2A4A5A9000E030A3 /* Assets.xcassets */; };
 		A0DDB0262A4A5A9000E030A3 /* DetailPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DDB01C2A4A5A9000E030A3 /* DetailPersonViewController.xib */; };
 		A0DDB0302A4A5AA600E030A3 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0272A4A5AA600E030A3 /* PersonModel.swift */; };
 		A0DDB0312A4A5AA600E030A3 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDB0282A4A5AA600E030A3 /* PersonViewController.swift */; };
@@ -38,6 +38,7 @@
 		1089EAB8530BB9DC0BD49DC1 /* Pods-appStarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appStarWars.debug.xcconfig"; path = "Target Support Files/Pods-appStarWars/Pods-appStarWars.debug.xcconfig"; sourceTree = "<group>"; };
 		1A440673C65C9D73AC203C0D /* Pods_appStarWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appStarWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5317204E2EC3EE55B9DC74 /* Pods-appStarWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appStarWars.release.xcconfig"; path = "Target Support Files/Pods-appStarWars/Pods-appStarWars.release.xcconfig"; sourceTree = "<group>"; };
+		A0C97BA02A4B4C1E00775953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0DDAFF92A4A5A1500E030A3 /* appStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DDAFFC2A4A5A1500E030A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0DDAFFE2A4A5A1500E030A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		A0DDB0182A4A5A9000E030A3 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		A0DDB0192A4A5A9000E030A3 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		A0DDB01A2A4A5A9000E030A3 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
-		A0DDB01B2A4A5A9000E030A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Star Wars/Star Wars/Assets.xcassets"; sourceTree = "<group>"; };
 		A0DDB01C2A4A5A9000E030A3 /* DetailPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailPersonViewController.xib; sourceTree = "<group>"; };
 		A0DDB0272A4A5AA600E030A3 /* PersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 		A0DDB0282A4A5AA600E030A3 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 				A0DDB0392A4A61DB00E030A3 /* Login */,
 				A0DDAFFC2A4A5A1500E030A3 /* AppDelegate.swift */,
 				A0DDAFFE2A4A5A1500E030A3 /* SceneDelegate.swift */,
-				A0DDB01B2A4A5A9000E030A3 /* Assets.xcassets */,
+				A0C97BA02A4B4C1E00775953 /* Assets.xcassets */,
 				A0DDB0072A4A5A1800E030A3 /* LaunchScreen.storyboard */,
 				A0DDB00A2A4A5A1800E030A3 /* Info.plist */,
 			);
@@ -271,13 +271,13 @@
 			files = (
 				A0DDB0262A4A5A9000E030A3 /* DetailPersonViewController.xib in Resources */,
 				A0DDB0112A4A5A4700E030A3 /* Main.storyboard in Resources */,
+				A0C97BA12A4B4C1E00775953 /* Assets.xcassets in Resources */,
 				A0DDB0372A4A5AA600E030A3 /* PlanetsViewController.xib in Resources */,
 				A0DDB0222A4A5A9000E030A3 /* TableViewCell.xib in Resources */,
 				A0DDB0342A4A5AA600E030A3 /* PersonViewController.xib in Resources */,
 				A0DDB0242A4A5A9000E030A3 /* CollectionViewCell.xib in Resources */,
 				A0DDB0202A4A5A9000E030A3 /* DetailPlanetsViewController.xib in Resources */,
 				A0DDB0382A4A5AA600E030A3 /* MenuViewController.xib in Resources */,
-				A0DDB0252A4A5A9000E030A3 /* Assets.xcassets in Resources */,
 				A0DDB0092A4A5A1800E030A3 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
